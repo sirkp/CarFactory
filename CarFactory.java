@@ -28,9 +28,9 @@ class CarFactory{
 
 	public static void main(String[] args) {
 		
-		Car car1 = new Maruti("Maruti");	
-		Car car2 = new Hyundai("Hyundai");	
-		Car car3 = new Jaguar("Jaguar");
+		CarInterface car1 = new Maruti("Maruti");	
+		CarInterface car2 = new Hyundai("Hyundai");	
+		CarInterface car3 = new Jaguar("Jaguar");
 
 		car1.display();	
 		car2.display();	
